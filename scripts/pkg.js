@@ -49,8 +49,8 @@ async function _tgz() {
 async function main() {
   log('Building distribution...')
   execSync('yarn build')
-  // await pkg()
-  await pkg(['node14-win-x64']).then()
+  await pkg()
+  //await pkg(['node14-win-x64']).then()
   // await _tgz()
 }
 
