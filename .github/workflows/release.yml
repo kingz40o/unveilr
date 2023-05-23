@@ -38,4 +38,4 @@ jobs:
             ${{steps.build_changelog.outputs.changelog}}
           draft: true
           prerelease: true
-          files: release/*.tar.gz
+          files: release/*
